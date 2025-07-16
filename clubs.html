@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STC - IISER TVM</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Lora&family=Raleway:wght@500;800&display=swap" rel="stylesheet">
+    <link href="static/main.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#134965',
+                        secondary: '#214965',
+                        accent: '#dcf3f5',
+                        light: '#e6f5fa'
+                    },
+                    fontFamily: {
+                        comfortaa: ['Comfortaa', 'cursive'],
+                        lora: ['Lora', 'serif'],
+                        raleway: ['Raleway', 'sans-serif'],
+                        nunito: ['Nunito', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-[#f5f5dc] min-h-screen text-[#2f4f4f]">
+    <header class="bg-primary text-accent py-6 border-b-4 border-secondary">
+        <div class="container mx-auto px-4">
+            <h1 class="font-comfortaa text-3xl md:text-4xl font-bold mb-2">Science & Technology Council</h1>
+            <p class="font-lora italic">Indian Institute of Science Education and Research, Thiruvananthapuram</p>
+        </div>
+
+        <nav class="mt-6">
+            <ul class="flex flex-wrap justify-center gap-4 md:gap-8 font-raleway font-semibold">
+                <li><a href="index.html" class="hover:text-white transition">Home</a></li>
+                <li><a href="clubs.html" class="hover:text-white transition">Clubs</a></li>
+                <li><a href="events.html" class="hover:text-white transition">Events</a></li>
+                <li><a href="#" class="hover:text-white transition">Gallery</a></li>
+                <li><a href="#" class="hover:text-white transition">Blog</a></li>
+                <li><a href="admin.html" class="hover:text-white transition">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-4 py-8 max-w-5xl">
+        
+<section class="bg-[#faf0e6] rounded-xl shadow-lg p-6 mb-8 border border-[#deb887]">
+    <h1 class="font-raleway text-primary text-3xl font-bold uppercase mb-6 text-center border-b-2 border-primary pb-2">
+        STC Clubs & Organizations
+    </h1>
+    
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <div class="bg-gradient-to-br from-[#faf0e6] to-[#fff8dc] rounded-lg p-6 shadow-md border border-[#deb887] transform hover:scale-105 transition-transform">
+            <!-- Updated image section -->
+            <div class="w-16 h-16 mb-4 overflow-hidden rounded-lg flex items-center justify-center">
+                <img
+                    src="static/images/clubs/coding_club.png"
+                    alt="Coding Club Logo"
+                    class="w-full h-full object-contain"
+                >
+            </div>
+            <h3 class="font-comfortaa text-xl font-bold text-secondary mb-2">Coding Club</h3>
+            <p class="font-nunito">Programming and development club</p>
+            <button class="mt-4 bg-primary text-accent px-4 py-2 rounded-lg font-raleway font-semibold hover:bg-secondary transition">
+                View Details
+            </button>
+        </div>
+        
+        <div class="bg-gradient-to-br from-[#faf0e6] to-[#fff8dc] rounded-lg p-6 shadow-md border border-[#deb887] transform hover:scale-105 transition-transform">
+            <!-- Updated image section -->
+            <div class="w-16 h-16 mb-4 overflow-hidden rounded-lg flex items-center justify-center">
+                <img
+                    src="static/images/clubs/cmit.png"
+                    alt="CMIT Logo"
+                    class="w-full h-full object-contain"
+                >
+            </div>
+            <h3 class="font-comfortaa text-xl font-bold text-secondary mb-2">CMIT</h3>
+            <p class="font-nunito">Mathematics and computing club</p>
+            <button class="mt-4 bg-primary text-accent px-4 py-2 rounded-lg font-raleway font-semibold hover:bg-secondary transition">
+                View Details
+            </button>
+        </div>
+        
+        <div class="bg-gradient-to-br from-[#faf0e6] to-[#fff8dc] rounded-lg p-6 shadow-md border border-[#deb887] transform hover:scale-105 transition-transform">
+            <!-- Updated image section -->
+            <div class="w-16 h-16 mb-4 overflow-hidden rounded-lg flex items-center justify-center">
+                <img
+                    src="static/images/clubs/parsec.png"
+                    alt="Parsec Club Logo"
+                    class="w-full h-full object-contain"
+                >
+            </div>
+            <h3 class="font-comfortaa text-xl font-bold text-secondary mb-2">Parsec Club</h3>
+            <p class="font-nunito">Astronomy and astrophysics club</p>
+            <button class="mt-4 bg-primary text-accent px-4 py-2 rounded-lg font-raleway font-semibold hover:bg-secondary transition">
+                View Details
+            </button>
+        </div>
+        
+        <div class="bg-gradient-to-br from-[#faf0e6] to-[#fff8dc] rounded-lg p-6 shadow-md border border-[#deb887] transform hover:scale-105 transition-transform">
+            <!-- Updated image section -->
+            <div class="w-16 h-16 mb-4 overflow-hidden rounded-lg flex items-center justify-center">
+                <img
+                    src="static/images/clubs/psit.png"
+                    alt="PSIT Logo"
+                    class="w-full h-full object-contain"
+                >
+            </div>
+            <h3 class="font-comfortaa text-xl font-bold text-secondary mb-2">PSIT</h3>
+            <p class="font-nunito">Physics society</p>
+            <button class="mt-4 bg-primary text-accent px-4 py-2 rounded-lg font-raleway font-semibold hover:bg-secondary transition">
+                View Details
+            </button>
+        </div>
+        
+    </div>
+</section>
+
+    </main>
+
+    <footer class="bg-secondary text-accent py-10 mt-12">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="font-raleway text-xl font-bold uppercase mb-4">Let's Build Something Great Together</h2>
+            <p class="font-lora max-w-2xl mx-auto mb-6">
+                Bringing the CCIT culture to your group work. We're hoping for the best from all of you!
+            </p>
+            <div class="font-comfortaa font-bold text-lg">
+                — Team B
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
