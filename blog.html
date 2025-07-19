@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>STC Blog - IISER TVM</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Lora&family=Raleway:wght@500;800&display=swap" rel="stylesheet"/>
+  <link href="static/main.css" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#134965',
+            secondary: '#214965',
+            accent: '#dcf3f5',
+            light: '#e6f5fa'
+          },
+          fontFamily: {
+            comfortaa: ['Comfortaa', 'cursive'],
+            lora: ['Lora', 'serif'],
+            raleway: ['Raleway', 'sans-serif'],
+            nunito: ['Nunito', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-[#f5f5dc] min-h-screen text-[#2f4f4f]">
+
+  <header class="bg-primary text-accent py-6 border-b-4 border-secondary">
+    <div class="container mx-auto px-4">
+      <h1 class="font-comfortaa text-3xl md:text-4xl font-bold mb-2">Science & Technology Council Blog</h1>
+      <p class="font-lora italic">Indian Institute of Science Education and Research, Thiruvananthapuram</p>
+    </div>
+    <nav class="mt-6" aria-label="Main Navigation">
+      <ul class="flex flex-wrap justify-center gap-4 md:gap-8 font-raleway font-semibold">
+        <li><a href="index.html" class="hover:text-white transition">Home</a></li>
+        <li><a href="clubs.html" class="hover:text-white transition">Clubs</a></li>
+        <li><a href="events.html" class="hover:text-white transition">Events</a></li>
+        <li><a href="gallery.html" class="hover:text-white transition">Gallery</a></li>
+        <li><a href="blog.html" class="hover:text-white transition ">Blog</a></li>
+        <li><a href="admin.html" class="hover:text-white transition">Admin</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container mx-auto px-4 py-10 max-w-6xl">
+    <section>
+      <h2 class="font-raleway text-primary text-3xl font-bold uppercase mb-6 text-center border-b-2 border-primary pb-2">Latest Blog Posts</h2>
+        <div class="space-y-6"></div>
+
+      <div class="grid gap-8 md:grid-cols-2">
+        <article class="bg-gradient-to-br from-[#faf0e6] to-[#fff8dc] p-6 rounded-xl shadow border border-[#deb887]">
+          <h3 class="text-xl font-bold font-raleway text-secondary mb-2">
+            Supercharge Your Biology Research with Free Online Tech Tools
+          </h3>
+          <p class="text-sm font-lora text-gray-700 mb-4">
+            <i class="fas fa-user mr-1 text-primary"></i> By Gowri Vinod  &nbsp;&nbsp; 
+            <i class="far fa-calendar-alt mr-1 text-primary"></i> June 28,2025
+          </p>
+          <p class="font-lora text-[#2f4f4f] mb-4">
+            Whether you're new to biology research or working on a niche project, these tools enhance your workflow — from literature mining to gene interaction mapping...
+          </p>
+          <a href="#" class="inline-block bg-primary text-accent px-4 py-2 rounded-lg font-raleway font-semibold hover:bg-secondary transition">
+            Read More
+          </a>
+        </article>
+
+        <article class="bg-gradient-to-br from-[#faf0e6] to-[#fff8dc] p-6 rounded-xl shadow border border-[#deb887]">
+          <h3 class="text-xl font-bold font-raleway text-secondary mb-2">
+            Multi-Agent Systems: The Future of Collaborative AI
+          </h3>
+          <p class="text-sm font-lora text-gray-700 mb-4">
+            <i class="fas fa-user mr-1 text-primary"></i> By Saurab Mishra &nbsp;&nbsp;
+            <i class="far fa-calendar-alt mr-1 text-primary"></i> December 10, 2025
+          </p>
+          <p class="font-lora text-[#2f4f4f] mb-4">
+           Multi-Agent Systems (MAS) represent a paradigm where multiple independent agents work together to solve complex problems in a more efficient way than single systems. 
+          </p>
+          <a href="#" class="inline-block bg-primary text-accent px-4 py-2 rounded-lg font-raleway font-semibold hover:bg-secondary transition">
+            Read More
+          </a>
+        </article>
+
+        
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-secondary text-accent py-10 mt-12">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="font-raleway text-xl font-bold uppercase mb-4">Let's Build Something Great Together</h2>
+      <p class="font-lora max-w-2xl mx-auto mb-6">
+         Bringing the CCIT culture to your group work. We're hoping for the best from all of you.
+      </p>
+      <div class="font-comfortaa font-bold text-lg">
+        — Team B
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
